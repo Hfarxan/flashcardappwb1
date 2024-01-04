@@ -1,0 +1,18 @@
+.create-flash-card-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .create-flash-card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .create-flash-card-form h1 {
+    text-align: center;
+  }
+  
+  /* Add more styling as needed */
+  

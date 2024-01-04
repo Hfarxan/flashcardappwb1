@@ -1,0 +1,53 @@
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+.top-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro-section {
+  margin-bottom: 30px;
+}
+
+.projects-section {
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .project {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
