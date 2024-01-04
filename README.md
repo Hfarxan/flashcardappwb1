@@ -24,21 +24,30 @@ JSON-Server: Functions as a simulated backend for storing and administering flas
 Installation 
 
 1. Clone the Repository:
+
 git clone https://github.com/Hfarxan/flashcardappwb1.git
 
 2. Install Dependencies:
+
    npm install
 
 3. Install/Start the JSON server:
+
 npm install -g json-server 
+
 json-server --watch src/json/cards.json --port 3001
 
 4.Start the App
+
 npm start 
+
 Launch your web browser and navigate to http://localhost:3000 to explore the Flash Card App.
+
 5. Start the JSON Server
+
 In a new terminal, execute the following command to initiate JSON-Server, utilizing db.json as the database:
 json-server --watch db.json --port 3000
+
 Access the server by visiting http://localhost:3001. Make sure to select a different port if 3000 is already in use by the React application.
 
 
